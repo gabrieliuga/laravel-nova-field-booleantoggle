@@ -24,7 +24,7 @@ export default {
                 'value': this.objValue,
                 'flag': this.field.value ? '0' : '1'
             })
-            axios.post('/nova-vendor/pnpd-boolean-toggle/toggle', {
+            axios.post('/nova-vendor/boolean-toggle/toggle', {
                 'object': this.objClass,
                 'objectId': this.objectId,
                 'value': this.objValue,

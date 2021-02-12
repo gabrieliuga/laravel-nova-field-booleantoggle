@@ -1,6 +1,6 @@
 <?php
 
-namespace Pnpd\BooleanToggle;
+namespace Gabrieliuga\BooleanToggle;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
@@ -34,7 +34,7 @@ class FieldServiceProvider extends ServiceProvider
         }
 
         Route::middleware(['nova'])
-            ->prefix('nova-vendor/pnpd-boolean-toggle')
+            ->prefix('nova-vendor/boolean-toggle')
             ->group(__DIR__.'/../routes/api.php');
     }
     /**

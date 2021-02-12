@@ -1,5 +1,5 @@
 {
-    "name": "pnpd/BooleanToggle",
+    "name": "gabrieliuga/booleantoggle",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Pnpd\\BooleanToggle\\": "src/"
+            "Gabrieliuga\\BooleanToggle\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pnpd\\BooleanToggle\\FieldServiceProvider"
+                "Gabrieliuga\\BooleanToggle\\FieldServiceProvider"
             ]
         }
     },

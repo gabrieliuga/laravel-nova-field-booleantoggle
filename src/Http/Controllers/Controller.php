@@ -1,6 +1,6 @@
 <?php
 
-namespace Pnpd\BooleanToggle\Http\Controllers;
+namespace Gabrieliuga\BooleanToggle\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

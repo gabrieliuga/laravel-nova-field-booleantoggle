@@ -1,12 +1,11 @@
 <?php
 
-namespace Pnpd\BooleanToggle\Http\Controllers;
+namespace Gabrieliuga\BooleanToggle\Http\Controllers;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Schema;
-use Pnpd\UserReports\Jobs\UserExportJob;
 use Illuminate\Http\Request;
 
 class BooleanToggleController extends Controller

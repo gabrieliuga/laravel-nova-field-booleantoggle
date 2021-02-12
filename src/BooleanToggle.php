@@ -1,6 +1,6 @@
 <?php
 
-namespace Pnpd\BooleanToggle;
+namespace Gabrieliuga\BooleanToggle;
 
 use Laravel\Nova\Fields\Field;
 
