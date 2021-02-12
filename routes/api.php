@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
- Route::post('/toggle', '\Pnpd\BooleanToggle\Http\Controllers\BooleanToggleController@toggleField');
+ Route::post('/toggle', '\Gabrieliuga\BooleanToggle\Http\Controllers\BooleanToggleController@toggleField');
